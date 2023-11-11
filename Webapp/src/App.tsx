@@ -19,12 +19,12 @@ function App() {
       <header>
         {shouldRenderHeader() && <GuestHeader />}
       </header>
-      <body>
+      {/* <body>
         <Routes>
           <Route path='/login' element={<LoginPage />} />
           <Route path='/login/verification' element={<LoginVerification />} />
         </Routes>
-      </body>
+      </body> */}
     </>
   )
 }
